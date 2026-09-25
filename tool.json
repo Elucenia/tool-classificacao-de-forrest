@@ -1,0 +1,165 @@
+{
+  "tool": {
+    "id": "classificacao-de-forrest",
+    "title": "Classificação de Forrest",
+    "short": "Úlcera péptica sangrante: ressangramento e conduta",
+    "desc": "Classificação de Forrest da úlcera péptica sangrante: aspecto endoscópico, risco de ressangramento sem tratamento e indicação de hemostasia endoscópica.",
+    "lead": "Classifica o aspecto endoscópico da úlcera péptica sangrante (sangramento ativo, estigmas de sangramento recente ou base limpa), o que prevê o risco de ressangramento e orienta a hemostasia endoscópica.",
+    "spec": [
+      "endoscopia",
+      "gastroenterologia",
+      "cirurgia-do-aparelho-digestivo"
+    ],
+    "tier": 1,
+    "fields": [
+      [
+        "classe",
+        "Aspecto da úlcera na endoscopia",
+        "sel",
+        {
+          "opts": {
+            "Ia": "Ia – sangramento ativo em jato",
+            "Ib": "Ib – sangramento ativo em babação (porejamento)",
+            "IIa": "IIa – vaso visível sem sangramento",
+            "IIb": "IIb – coágulo aderido",
+            "IIc": "IIc – mancha plana pigmentada (hematina)",
+            "III": "III – base limpa (fibrina)"
+          }
+        }
+      ]
+    ],
+    "formula": "<p><strong>Forrest I</strong> (sangramento ativo): Ia em jato, Ib em babação. <strong>Forrest II</strong> (estigmas de sangramento recente): IIa vaso visível, IIb coágulo aderido, IIc hematina plana. <strong>Forrest III</strong>: base limpa.</p>",
+    "table": [
+      [
+        "Classe",
+        "Ressangramento sem terapia endoscópica*",
+        "Conduta (ESGE 2021)"
+      ],
+      [
+        "Ia / Ib",
+        "55%",
+        "Hemostasia endoscópica"
+      ],
+      [
+        "IIa",
+        "43%",
+        "Hemostasia endoscópica"
+      ],
+      [
+        "IIb",
+        "22%",
+        "Considerar remover o coágulo e tratar a lesão subjacente"
+      ],
+      [
+        "IIc",
+        "10%",
+        "Sem terapia endoscópica"
+      ],
+      [
+        "III",
+        "5%",
+        "Sem terapia endoscópica"
+      ]
+    ],
+    "table_note": "*Laine e Peterson (1994), com base em estudos da era anterior aos inibidores de bomba de prótons em dose alta.",
+    "tips": [
+      "Nas classes Ia, Ib e IIa, faça terapia combinada (adrenalina associada a método térmico ou mecânico); adrenalina isolada não basta.",
+      "Após hemostasia endoscópica, mantenha IBP em dose alta (bolus e infusão ou bolus intermitente) por 72 horas.",
+      "Lave a lesão antes de classificar: um coágulo pode esconder um vaso visível ou um sangramento ativo.",
+      "Pesquise e trate <em>Helicobacter pylori</em> em toda úlcera sangrante; a biópsia no episódio agudo tem mais falso-negativo.",
+      "Classes IIc e III permitem dieta precoce e, na ausência de outros riscos, alta precoce."
+    ],
+    "sources": [
+      [
+        "Forrest JA, Finlayson ND, Shearman DJ. Endoscopy in gastrointestinal bleeding. Lancet, 1974.",
+        "https://doi.org/10.1016/S0140-6736(74)91770-X"
+      ],
+      [
+        "Laine L, Peterson WL. Bleeding peptic ulcer. N Engl J Med, 1994.",
+        "https://doi.org/10.1056/NEJM199409153311107"
+      ],
+      [
+        "Gralnek IM et al. Endoscopic diagnosis and management of nonvariceal upper gastrointestinal hemorrhage (NVUGIH): European Society of Gastrointestinal Endoscopy (ESGE) Guideline – Update 2021. Endoscopy, 2021.",
+        "https://doi.org/10.1055/a-1369-5274"
+      ]
+    ],
+    "cases": [
+      [
+        "Sangramento em jato: Forrest Ia, hemostasia indicada",
+        {
+          "classe": "Ia"
+        },
+        {
+          "main": "Ia",
+          "level": "high",
+          "verdict": "hemostasia endoscópica indicada"
+        }
+      ],
+      [
+        "Vaso visível: Forrest IIa, ressangramento 43%",
+        {
+          "classe": "IIa"
+        },
+        {
+          "main": "IIa",
+          "level": "high",
+          "verdict": "vaso visível"
+        }
+      ],
+      [
+        "Coágulo aderido: Forrest IIb",
+        {
+          "classe": "IIb"
+        },
+        {
+          "main": "IIb",
+          "level": "mid",
+          "verdict": "coágulo"
+        }
+      ],
+      [
+        "Base limpa: Forrest III, sem terapia endoscópica",
+        {
+          "classe": "III"
+        },
+        {
+          "main": "III",
+          "level": "low",
+          "verdict": "não indicada"
+        }
+      ]
+    ],
+    "batch": "renal-digestivo",
+    "kind": "Calculadora",
+    "config": null,
+    "areaId": "renal-digestivo",
+    "clinicalReview": "pending",
+    "sourceReview": "pending",
+    "sourceFile": "app/content/ferramentas/renal-digestivo.php",
+    "arithmeticTest": {
+      "status": "passed",
+      "testedAt": "2026-09-25",
+      "total": 4,
+      "passed": 4,
+      "failures": []
+    },
+    "independentArithmeticTest": {
+      "status": "not-tested",
+      "testedAt": null,
+      "total": 0,
+      "passed": 0,
+      "cases": []
+    }
+  },
+  "review": {
+    "status": "needs-review",
+    "reason": "Revisão documental e clínica independente pendente.",
+    "clinicalValidation": "not-performed"
+  },
+  "sourceFile": {
+    "path": "app/content/ferramentas/renal-digestivo.php",
+    "sha256": "95087d729438637d36e1a49af04d8de0fe1d9f7876443084443906a9281ef107",
+    "bytes": 109421
+  },
+  "clinicalValidation": "not-performed"
+}

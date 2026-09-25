@@ -1,0 +1,62 @@
+[
+  {
+    "label": "Sangramento em jato: Forrest Ia, hemostasia indicada",
+    "input": {
+      "classe": "Ia"
+    },
+    "expected": {
+      "main": "Ia",
+      "level": "high",
+      "verdict": "hemostasia endoscópica indicada"
+    },
+    "originalInput": {
+      "classe": "Ia"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Vaso visível: Forrest IIa, ressangramento 43%",
+    "input": {
+      "classe": "IIa"
+    },
+    "expected": {
+      "main": "IIa",
+      "level": "high",
+      "verdict": "vaso visível"
+    },
+    "originalInput": {
+      "classe": "IIa"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Coágulo aderido: Forrest IIb",
+    "input": {
+      "classe": "IIb"
+    },
+    "expected": {
+      "main": "IIb",
+      "level": "mid",
+      "verdict": "coágulo"
+    },
+    "originalInput": {
+      "classe": "IIb"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Base limpa: Forrest III, sem terapia endoscópica",
+    "input": {
+      "classe": "III"
+    },
+    "expected": {
+      "main": "III",
+      "level": "low",
+      "verdict": "não indicada"
+    },
+    "originalInput": {
+      "classe": "III"
+    },
+    "expandedZeroOptions": []
+  }
+]
