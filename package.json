@@ -1,7 +1,7 @@
 {
   "name": "@elucenia/tool-classificacao-de-forrest",
   "version": "0.1.0",
-  "description": "Classificação de Forrest · Elucenia: reprodução técnica de fórmula ou escore clínico, sem dependências, para navegador e Node.js.",
+  "description": "Classificação de Forrest · ELUCENIA: reprodução técnica de fórmula ou escore clínico, sem dependências, para navegador e Node.js.",
   "keywords": [
     "elucenia",
     "medical-calculator",
