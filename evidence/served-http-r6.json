@@ -1,0 +1,777 @@
+{
+  "schema": "elucenia-native-tool-actual-r6-local-HTTP-subset-r5",
+  "id": "classificacao-de-forrest",
+  "sourceReceipt": {
+    "file": "reports/review-20261005-completion/deploy-lock/r6-all-calculators-http-results.json",
+    "bytes": 7105396,
+    "sha256": "c0b1e4dc320ce807e78c0444e629c1269b545b6e2ac87c265d896073d8c34ecb"
+  },
+  "servedBuildId": "jN-2wbRrarMjYPwdPnRHh",
+  "checker": {
+    "file": "reports/review-20261005-completion/deploy-lock/verify-r6-all-calculators-http.cjs",
+    "sha256": "92411a9e01fe36e1bf380c3336f2171bdb523a02ff09683da75927b12b33b3fa",
+    "bytes": 20735
+  },
+  "health": {
+    "url": "http://127.0.0.1:3067/api/health",
+    "startedAt": "2026-10-05T17:35:43.039Z",
+    "status": 200,
+    "headers": {
+      "contentType": "application/json",
+      "retryAfter": null,
+      "cacheControl": "no-store",
+      "nosniff": "nosniff"
+    },
+    "body": {
+      "status": "ok",
+      "application": "ELUCENIA",
+      "framework": "Next.js",
+      "version": "1.0.0"
+    },
+    "responseSha256": "65f95645e7826371eb2d9d3f96e0fed52ea4b88c77203f0cf2511769e57cd108",
+    "bytes": 80,
+    "elapsedMs": 27.345699999999994
+  },
+  "identity": {
+    "url": "http://127.0.0.1:3067/_next/data/jN-2wbRrarMjYPwdPnRHh/en/tools.json",
+    "startedAt": "2026-10-05T17:35:43.068Z",
+    "status": 200,
+    "headers": {
+      "contentType": "application/json; charset=utf-8",
+      "retryAfter": null,
+      "cacheControl": "s-maxage=31536000",
+      "nosniff": "nosniff"
+    },
+    "responseSha256": "404601e2c283a588a2f41af4feb5113d1993f76cc22f73a7b8ef4f5d17a82fa8",
+    "bytes": 103853,
+    "elapsedMs": 14.542600000000007,
+    "semanticMatchWithCompiledCatalog": true
+  },
+  "sourceCalculator": {
+    "file": "deliveries/elucenia-next-hostinger-r6/private/tool-code/classificacao-de-forrest/calculator.js",
+    "sha256": "deddbce0102d500635e0d8f5814ad203c8d5c7e83416d14d10598ce911ab2974",
+    "bytes": 5286
+  },
+  "sourceCalculatorMatchesCurrentCandidate": true,
+  "toolStatus": {
+    "cases": 4,
+    "replayed": 4,
+    "passed": 4,
+    "failed": 0,
+    "status": "passed"
+  },
+  "cases": [
+    {
+      "id": "classificacao-de-forrest",
+      "kind": "native-source-reference",
+      "index": 0,
+      "name": "Sangramento em jato: Forrest Ia, hemostasia indicada",
+      "originalInput": {
+        "classe": "Ia"
+      },
+      "input": {
+        "classe": "Ia"
+      },
+      "amendments": [],
+      "expected": {
+        "main": "Ia",
+        "level": "high",
+        "verdict": "hemostasia endoscópica indicada"
+      },
+      "recordedResult": {
+        "main": [
+          "Ia",
+          ""
+        ],
+        "label": "Classificação de Forrest",
+        "raw": {
+          "classe": "Ia"
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/classificacao-de-forrest/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "classe": "Ia"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/classificacao-de-forrest/calculate",
+          "startedAt": "2026-10-05T17:36:09.138Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "classificacao-de-forrest",
+              "main": [
+                "Ia",
+                ""
+              ],
+              "label": "Classificação de Forrest",
+              "raw": {
+                "classe": "Ia"
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "1026974f52e2fc909ed447b6afb5dabd93d21bf8b30b66945d7f032a6b516b16",
+          "bytes": 157,
+          "elapsedMs": 3.0155999999988126
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/classificacao-de-forrest/calculate",
+        "startedAt": "2026-10-05T17:36:09.138Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "classificacao-de-forrest",
+            "main": [
+              "Ia",
+              ""
+            ],
+            "label": "Classificação de Forrest",
+            "raw": {
+              "classe": "Ia"
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "1026974f52e2fc909ed447b6afb5dabd93d21bf8b30b66945d7f032a6b516b16",
+        "bytes": 157,
+        "elapsedMs": 3.0155999999988126
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.main",
+            "expected": "Ia",
+            "obtained": "Ia",
+            "scope": "Recorded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.classe",
+            "expected": "Ia",
+            "obtained": "Ia",
+            "scope": "Existing source-audit transport regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "Ia",
+            "obtained": "Ia",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "",
+            "obtained": "",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          },
+          {
+            "key": "verdict",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "classificacao-de-forrest",
+      "kind": "native-source-reference",
+      "index": 1,
+      "name": "Vaso visível: Forrest IIa, ressangramento 43%",
+      "originalInput": {
+        "classe": "IIa"
+      },
+      "input": {
+        "classe": "IIa"
+      },
+      "amendments": [],
+      "expected": {
+        "main": "IIa",
+        "level": "high",
+        "verdict": "vaso visível"
+      },
+      "recordedResult": {
+        "main": [
+          "IIa",
+          ""
+        ],
+        "label": "Classificação de Forrest",
+        "raw": {
+          "classe": "IIa"
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/classificacao-de-forrest/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "classe": "IIa"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/classificacao-de-forrest/calculate",
+          "startedAt": "2026-10-05T17:36:09.450Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "classificacao-de-forrest",
+              "main": [
+                "IIa",
+                ""
+              ],
+              "label": "Classificação de Forrest",
+              "raw": {
+                "classe": "IIa"
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "522388c3716761550c0e2d60e0415e8ef0a890992c42a19b3278dbafe292483b",
+          "bytes": 159,
+          "elapsedMs": 2.6334999999999127
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/classificacao-de-forrest/calculate",
+        "startedAt": "2026-10-05T17:36:09.450Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "classificacao-de-forrest",
+            "main": [
+              "IIa",
+              ""
+            ],
+            "label": "Classificação de Forrest",
+            "raw": {
+              "classe": "IIa"
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "522388c3716761550c0e2d60e0415e8ef0a890992c42a19b3278dbafe292483b",
+        "bytes": 159,
+        "elapsedMs": 2.6334999999999127
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.main",
+            "expected": "IIa",
+            "obtained": "IIa",
+            "scope": "Recorded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.classe",
+            "expected": "IIa",
+            "obtained": "IIa",
+            "scope": "Existing source-audit transport regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "IIa",
+            "obtained": "IIa",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "",
+            "obtained": "",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          },
+          {
+            "key": "verdict",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "classificacao-de-forrest",
+      "kind": "native-source-reference",
+      "index": 2,
+      "name": "Coágulo aderido: Forrest IIb",
+      "originalInput": {
+        "classe": "IIb"
+      },
+      "input": {
+        "classe": "IIb"
+      },
+      "amendments": [],
+      "expected": {
+        "main": "IIb",
+        "level": "mid",
+        "verdict": "coágulo"
+      },
+      "recordedResult": {
+        "main": [
+          "IIb",
+          ""
+        ],
+        "label": "Classificação de Forrest",
+        "raw": {
+          "classe": "IIb"
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/classificacao-de-forrest/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "classe": "IIb"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/classificacao-de-forrest/calculate",
+          "startedAt": "2026-10-05T17:36:09.763Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "classificacao-de-forrest",
+              "main": [
+                "IIb",
+                ""
+              ],
+              "label": "Classificação de Forrest",
+              "raw": {
+                "classe": "IIb"
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "f0d75fcb194b604e6d42344831b8e0f4fe634721be5aa8bdb738158322e0d76a",
+          "bytes": 159,
+          "elapsedMs": 6.190600000001723
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/classificacao-de-forrest/calculate",
+        "startedAt": "2026-10-05T17:36:09.763Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "classificacao-de-forrest",
+            "main": [
+              "IIb",
+              ""
+            ],
+            "label": "Classificação de Forrest",
+            "raw": {
+              "classe": "IIb"
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "f0d75fcb194b604e6d42344831b8e0f4fe634721be5aa8bdb738158322e0d76a",
+        "bytes": 159,
+        "elapsedMs": 6.190600000001723
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.main",
+            "expected": "IIb",
+            "obtained": "IIb",
+            "scope": "Recorded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.classe",
+            "expected": "IIb",
+            "obtained": "IIb",
+            "scope": "Existing source-audit transport regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "IIb",
+            "obtained": "IIb",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "",
+            "obtained": "",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          },
+          {
+            "key": "verdict",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "classificacao-de-forrest",
+      "kind": "native-source-reference",
+      "index": 3,
+      "name": "Base limpa: Forrest III, sem terapia endoscópica",
+      "originalInput": {
+        "classe": "III"
+      },
+      "input": {
+        "classe": "III"
+      },
+      "amendments": [],
+      "expected": {
+        "main": "III",
+        "level": "low",
+        "verdict": "não indicada"
+      },
+      "recordedResult": {
+        "main": [
+          "III",
+          ""
+        ],
+        "label": "Classificação de Forrest",
+        "raw": {
+          "classe": "III"
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/classificacao-de-forrest/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "classe": "III"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/classificacao-de-forrest/calculate",
+          "startedAt": "2026-10-05T17:36:10.063Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "classificacao-de-forrest",
+              "main": [
+                "III",
+                ""
+              ],
+              "label": "Classificação de Forrest",
+              "raw": {
+                "classe": "III"
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "42524856ff11ea2b949657bed74bc45c56b8ad3e6f4cff4500d17e55e7389847",
+          "bytes": 159,
+          "elapsedMs": 6.394399999997404
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/classificacao-de-forrest/calculate",
+        "startedAt": "2026-10-05T17:36:10.063Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "classificacao-de-forrest",
+            "main": [
+              "III",
+              ""
+            ],
+            "label": "Classificação de Forrest",
+            "raw": {
+              "classe": "III"
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "42524856ff11ea2b949657bed74bc45c56b8ad3e6f4cff4500d17e55e7389847",
+        "bytes": 159,
+        "elapsedMs": 6.394399999997404
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.main",
+            "expected": "III",
+            "obtained": "III",
+            "scope": "Recorded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.classe",
+            "expected": "III",
+            "obtained": "III",
+            "scope": "Existing source-audit transport regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "III",
+            "obtained": "III",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "",
+            "obtained": "",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          },
+          {
+            "key": "verdict",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    }
+  ],
+  "scope": {
+    "syntheticDataOnly": true,
+    "applicationModuleImports": 0,
+    "browserInteractions": 0,
+    "newIndependentOracles": 0,
+    "nativeSourceReferenceCases": 882,
+    "additionalDecimalCases": 4,
+    "predictProstateHasSeparateFullCurveOracleReplay": true,
+    "clinicalApproval": false,
+    "professionalLanguageApproval": false,
+    "populationValidation": false,
+    "hostingerDeploymentVerified": false,
+    "actualHTTPExecution": true,
+    "standaloneNodeServer": true,
+    "nodeVersion": "v22.18.0",
+    "noNewClinicalOrProfessionalApproval": true,
+    "pubmedResourceIsNotCalculatorAndNotIncludedIn222": true,
+    "description": "All 882 existing reference cases across the 218 native calculators plus four existing Decimal50 examples, executed via HTTP against the final local r6 standalone build. Raw precise source-audit comparisons are transport regressions, not independent clinical or full-method validation."
+  },
+  "clinicalApproval": false,
+  "professionalLanguageApproval": false,
+  "newIndependentOracle": false,
+  "actualBrowserJourney": false,
+  "hostingerDeploymentVerified": false
+}

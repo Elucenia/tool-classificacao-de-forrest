@@ -1,5 +1,5 @@
 {
-  "schema": "elucenia-native190-current-source-candidate-r1",
+  "schema": "elucenia-native-current-package-R6-HTTP-linked-r5",
   "id": "classificacao-de-forrest",
   "repository": "Elucenia/tool-classificacao-de-forrest",
   "remoteBase": {
@@ -180,7 +180,24 @@
   "sourceNodeParityPassed": true,
   "browserVmParityPassed": true,
   "actualBrowserDomVerified": false,
-  "currentActualR6HttpEvidence": "pending",
+  "currentActualR6HttpEvidence": {
+    "path": "evidence/served-http-r6.json",
+    "bytes": 24348,
+    "sha256": "1867c12779b679415d1c863a1d8fa8b3b67df633625271902c0825227408c83e",
+    "sourceReceipt": {
+      "file": "reports/review-20261005-completion/deploy-lock/r6-all-calculators-http-results.json",
+      "bytes": 7105396,
+      "sha256": "c0b1e4dc320ce807e78c0444e629c1269b545b6e2ac87c265d896073d8c34ecb"
+    },
+    "servedBuildId": "jN-2wbRrarMjYPwdPnRHh",
+    "sourceCalculator": {
+      "file": "deliveries/elucenia-next-hostinger-r6/private/tool-code/classificacao-de-forrest/calculator.js",
+      "sha256": "deddbce0102d500635e0d8f5814ad203c8d5c7e83416d14d10598ce911ab2974",
+      "bytes": 5286
+    },
+    "cases": 4,
+    "status": "passed"
+  },
   "rights": {
     "ownCodeScope": "Current MIT adapter and original Apache standalone wrapper/support; exact original licences and notices coexist without rewriting",
     "sourceAdapter": {
@@ -306,5 +323,10 @@
   "externalPublicationReady": false,
   "publicationPerformed": false,
   "appWrites": false,
-  "deliveryWrites": false
+  "deliveryWrites": false,
+  "preparedFrom": {
+    "file": "reports/review-20261005-completion/native187-current-candidates-r2.json",
+    "bytes": 2785936,
+    "sha256": "2fe0448a9680b4a50b34235469d7cb36b3e8075ce0559d700f59442007cfb0f9"
+  }
 }
