@@ -1,6 +1,12 @@
 [
   {
-    "label": "Sangramento em jato: Forrest Ia, hemostasia indicada",
+    "id": "classificacao-de-forrest",
+    "kind": "native-source-reference",
+    "index": 0,
+    "name": "Sangramento em jato: Forrest Ia, hemostasia indicada",
+    "originalInput": {
+      "classe": "Ia"
+    },
     "input": {
       "classe": "Ia"
     },
@@ -9,13 +15,33 @@
       "level": "high",
       "verdict": "hemostasia endoscópica indicada"
     },
-    "originalInput": {
-      "classe": "Ia"
+    "recordedResult": {
+      "main": [
+        "Ia",
+        ""
+      ],
+      "label": "Classificação de Forrest",
+      "raw": {
+        "classe": "Ia"
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "Vaso visível: Forrest IIa, ressangramento 43%",
+    "id": "classificacao-de-forrest",
+    "kind": "native-source-reference",
+    "index": 1,
+    "name": "Vaso visível: Forrest IIa, ressangramento 43%",
+    "originalInput": {
+      "classe": "IIa"
+    },
     "input": {
       "classe": "IIa"
     },
@@ -24,13 +50,33 @@
       "level": "high",
       "verdict": "vaso visível"
     },
-    "originalInput": {
-      "classe": "IIa"
+    "recordedResult": {
+      "main": [
+        "IIa",
+        ""
+      ],
+      "label": "Classificação de Forrest",
+      "raw": {
+        "classe": "IIa"
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "Coágulo aderido: Forrest IIb",
+    "id": "classificacao-de-forrest",
+    "kind": "native-source-reference",
+    "index": 2,
+    "name": "Coágulo aderido: Forrest IIb",
+    "originalInput": {
+      "classe": "IIb"
+    },
     "input": {
       "classe": "IIb"
     },
@@ -39,13 +85,33 @@
       "level": "mid",
       "verdict": "coágulo"
     },
-    "originalInput": {
-      "classe": "IIb"
+    "recordedResult": {
+      "main": [
+        "IIb",
+        ""
+      ],
+      "label": "Classificação de Forrest",
+      "raw": {
+        "classe": "IIb"
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "Base limpa: Forrest III, sem terapia endoscópica",
+    "id": "classificacao-de-forrest",
+    "kind": "native-source-reference",
+    "index": 3,
+    "name": "Base limpa: Forrest III, sem terapia endoscópica",
+    "originalInput": {
+      "classe": "III"
+    },
     "input": {
       "classe": "III"
     },
@@ -54,9 +120,23 @@
       "level": "low",
       "verdict": "não indicada"
     },
-    "originalInput": {
-      "classe": "III"
+    "recordedResult": {
+      "main": [
+        "III",
+        ""
+      ],
+      "label": "Classificação de Forrest",
+      "raw": {
+        "classe": "III"
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   }
 ]

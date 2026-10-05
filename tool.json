@@ -5,12 +5,12 @@
     "short": "Úlcera péptica sangrante: ressangramento e conduta",
     "desc": "Classificação de Forrest da úlcera péptica sangrante: aspecto endoscópico, risco de ressangramento sem tratamento e indicação de hemostasia endoscópica.",
     "lead": "Classifica o aspecto endoscópico da úlcera péptica sangrante (sangramento ativo, estigmas de sangramento recente ou base limpa), o que prevê o risco de ressangramento e orienta a hemostasia endoscópica.",
+    "kind": "Calculadora",
     "spec": [
       "endoscopia",
       "gastroenterologia",
       "cirurgia-do-aparelho-digestivo"
     ],
-    "tier": 1,
     "fields": [
       [
         "classe",
@@ -29,46 +29,6 @@
       ]
     ],
     "formula": "<p><strong>Forrest I</strong> (sangramento ativo): Ia em jato, Ib em babação. <strong>Forrest II</strong> (estigmas de sangramento recente): IIa vaso visível, IIb coágulo aderido, IIc hematina plana. <strong>Forrest III</strong>: base limpa.</p>",
-    "table": [
-      [
-        "Classe",
-        "Ressangramento sem terapia endoscópica*",
-        "Conduta (ESGE 2021)"
-      ],
-      [
-        "Ia / Ib",
-        "55%",
-        "Hemostasia endoscópica"
-      ],
-      [
-        "IIa",
-        "43%",
-        "Hemostasia endoscópica"
-      ],
-      [
-        "IIb",
-        "22%",
-        "Considerar remover o coágulo e tratar a lesão subjacente"
-      ],
-      [
-        "IIc",
-        "10%",
-        "Sem terapia endoscópica"
-      ],
-      [
-        "III",
-        "5%",
-        "Sem terapia endoscópica"
-      ]
-    ],
-    "table_note": "*Laine e Peterson (1994), com base em estudos da era anterior aos inibidores de bomba de prótons em dose alta.",
-    "tips": [
-      "Nas classes Ia, Ib e IIa, faça terapia combinada (adrenalina associada a método térmico ou mecânico); adrenalina isolada não basta.",
-      "Após hemostasia endoscópica, mantenha IBP em dose alta (bolus e infusão ou bolus intermitente) por 72 horas.",
-      "Lave a lesão antes de classificar: um coágulo pode esconder um vaso visível ou um sangramento ativo.",
-      "Pesquise e trate <em>Helicobacter pylori</em> em toda úlcera sangrante; a biópsia no episódio agudo tem mais falso-negativo.",
-      "Classes IIc e III permitem dieta precoce e, na ausência de outros riscos, alta precoce."
-    ],
     "sources": [
       [
         "Forrest JA, Finlayson ND, Shearman DJ. Endoscopy in gastrointestinal bleeding. Lancet, 1974.",
@@ -81,6 +41,10 @@
       [
         "Gralnek IM et al. Endoscopic diagnosis and management of nonvariceal upper gastrointestinal hemorrhage (NVUGIH): European Society of Gastrointestinal Endoscopy (ESGE) Guideline – Update 2021. Endoscopy, 2021.",
         "https://doi.org/10.1055/a-1369-5274"
+      ],
+      [
+        "ESGE2021",
+        "https://www.esge.com/assets/downloads/pdfs/guidelines/2021_a_1369_5274.pdf"
       ]
     ],
     "cases": [
@@ -129,9 +93,6 @@
         }
       ]
     ],
-    "kind": "Calculadora",
-    "config": null,
-    "clinicalReview": "pending",
     "arithmeticTest": {
       "status": "passed",
       "testedAt": "2026-09-25",
@@ -140,17 +101,318 @@
       "failures": []
     },
     "independentArithmeticTest": {
-      "status": "not-tested",
-      "testedAt": null,
-      "total": 0,
-      "passed": 0,
-      "cases": []
+      "status": "passed",
+      "testedAt": "2026-10-04T15:17:41.432Z",
+      "total": 6,
+      "passed": 6,
+      "embeddedCasesAreSubset": true,
+      "embeddedCaseCount": 4,
+      "caseStorage": {
+        "mode": "complete-downloadable-bank-with-inline-subset",
+        "file": "independent-source-cases.json",
+        "sha256": "ac533921aaee4a86617be684795ade4372fabcd7b7d567e913c29dfdc1576b1e",
+        "total": 6,
+        "sourceContextCount": 6,
+        "expectedEvidence": {
+          "file": "reports/review-20261003/six-classification-peer-expectations-final25.json",
+          "sha256": "f224a891b06428ed29426f073e0cc8d1ad5ad2d56b78646c85243237166bf001"
+        },
+        "obtainedEvidence": {
+          "file": "reports/review-20261003/six-classification-source-oracles-independent-review-final25.json",
+          "sha256": "683814d261c3e6a11e71d38a4a1002c438f4911c020641f8f057e2253fad3afe"
+        },
+        "packagingRequirement": "Copy this complete bank into the fresh tool package; frozen final24 packages do not contain this source evidence."
+      },
+      "scope": "Only six previously selected class codes and source code meanings. No endoscopic image classification, risk percentages, prognosis or treatment recommendation validation.",
+      "source": {
+        "tool": "classificacao-de-forrest",
+        "url": "https://www.esge.com/assets/downloads/pdfs/guidelines/2021_a_1369_5274.pdf",
+        "edition": "ESGE2021, DOI10.1055/a-1369-5274, PDFp16",
+        "access": "Official PDF definitions and recommendations8–10 directly read",
+        "readScope": "Six prior-selected class codes only. No image classifier, therapy recommendation, numerical risk or complete original1974 article conformance established."
+      },
+      "evidencePath": "reports/review-20261003/six-classification-source-oracles-final25-r2.json",
+      "evidenceSha256": "06dd6f382c1dd3555db037b3b35ee7d0e4709207ad0a28df0de64fefc11038e2",
+      "peerEvidencePath": "reports/review-20261003/six-classification-source-oracles-independent-review-final25.json",
+      "peerEvidenceSha256": "683814d261c3e6a11e71d38a4a1002c438f4911c020641f8f057e2253fad3afe",
+      "implementations": [
+        {
+          "file": "apps/website/private/tool-code/classificacao-de-forrest/calculator.js",
+          "sha256": "deddbce0102d500635e0d8f5814ad203c8d5c7e83416d14d10598ce911ab2974",
+          "importedAt": "2026-10-04T15:17:36.464Z",
+          "sourceContexts": 6,
+          "distinctApiInputs": 6,
+          "instrumentation": "One readonly internal observer exposed only in VM; original function/config bytes not changed."
+        },
+        {
+          "file": "apps/dashboard/private/tool-code/classificacao-de-forrest/calculator.js",
+          "sha256": "deddbce0102d500635e0d8f5814ad203c8d5c7e83416d14d10598ce911ab2974",
+          "importedAt": "2026-10-04T15:17:36.986Z",
+          "sourceContexts": 6,
+          "distinctApiInputs": 6,
+          "instrumentation": "One readonly internal observer exposed only in VM; original function/config bytes not changed."
+        },
+        {
+          "file": "apps/command-center/private/tool-code/classificacao-de-forrest/calculator.js",
+          "sha256": "deddbce0102d500635e0d8f5814ad203c8d5c7e83416d14d10598ce911ab2974",
+          "importedAt": "2026-10-04T15:17:37.685Z",
+          "sourceContexts": 6,
+          "distinctApiInputs": 6,
+          "instrumentation": "One readonly internal observer exposed only in VM; original function/config bytes not changed."
+        }
+      ],
+      "sourceContextCount": 6,
+      "uniqueApiInputCount": 6,
+      "actualAdapterExecutions": 18,
+      "isolatedChromiumExecutions": 6,
+      "qualifications": [
+        "Only six previously selected class codes and source code meanings. No endoscopic image classification, risk percentages, prognosis or treatment recommendation validation.",
+        "CIWA4229 patterns are pairwise/boundary/supplemental coverage, not all671088640 possible inputs.",
+        "Fisher10 source-feature contexts map to five unique API grade-code inputs. The feature-to-grade assignment was independently reconstructed from Table1 by the test; it is not implemented as an automated CT classifier.",
+        "WFNS GCS15 plus deficit has no original table assignment and is recorded only as a local-fallback observation.",
+        "Forrest/GOS/Fisher inputs represent classifications selected before use; numeric/code echo is not diagnosis, prognosis, risk calibration or therapeutic approval.",
+        "Original source cases, historical expected values and tolerances remain unchanged.",
+        "Original historical cases, expected values and tolerances remain unchanged. Separate Fisher source-description amendment changes only the explicitly recorded description/formula/version metadata; all clinical/professional/rights/release approval flags remain unchanged. Passed status describes only the named integer/code scope."
+      ],
+      "unresolvedSourceFindings": [],
+      "excludedObservations": [],
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed",
+      "sourceRightsApproval": "not-performed",
+      "fullMethodConformance": "not-performed",
+      "publicCandidateBankOmitted": true
+    },
+    "methodVersion": "Forrest 1974:Ia/Ib/IIa/IIb/IIc/III; contexto ESGE 2021",
+    "implementationVersion": "classificacao-de-forrest@native-2026-10-03+deddbce0102d",
+    "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/4136718/",
+    "versionEvidence": {
+      "status": "variant-and-source-edition-recorded",
+      "checkedAt": "2026-10-03",
+      "implementedVariant": "Forrest I (sangramento ativo): Ia em jato, Ib em babação. Forrest II (estigmas de sangramento recente): IIa vaso visível, IIb coágulo aderido, IIc hematina plana. Forrest III : base limpa.",
+      "inputContract": {
+        "fields": [
+          {
+            "key": "classe",
+            "label": "Aspecto da úlcera na endoscopia",
+            "type": "sel",
+            "optional": false,
+            "options": {
+              "Ia": "Ia – sangramento ativo em jato",
+              "Ib": "Ib – sangramento ativo em babação (porejamento)",
+              "IIa": "IIa – vaso visível sem sangramento",
+              "IIb": "IIb – coágulo aderido",
+              "IIc": "IIc – mancha plana pigmentada (hematina)",
+              "III": "III – base limpa (fibrina)"
+            }
+          }
+        ],
+        "hash": "74f7aaaa672461179d09e7fd5823c1a6a23a14031aaaf575e727c26ef3a6fded"
+      },
+      "sourceEditions": [
+        {
+          "citation": "Forrest JA, Finlayson ND, Shearman DJ. Endoscopy in gastrointestinal bleeding. Lancet, 1974.",
+          "url": "https://doi.org/10.1016/S0140-6736(74)91770-X",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "Endoscopy in gastrointestinal bleeding.",
+            "year": "1974",
+            "firstPublicationDate": "1974-08-01",
+            "doi": "10.1016/s0140-6736(74)91770-x",
+            "pmid": "4136718",
+            "journal": "Lancet (London, England)",
+            "authors": "Forrest JA, Finlayson ND, Shearman DJ."
+          },
+          "primaryPublicationUrl": "https://pubmed.ncbi.nlm.nih.gov/4136718/",
+          "abstractAvailable": false,
+          "fullTextSha256": null,
+          "abstractSha256": null,
+          "matchedBy": "exact-DOI-or-PMID"
+        },
+        {
+          "citation": "Laine L, Peterson WL. Bleeding peptic ulcer. N Engl J Med, 1994.",
+          "url": "https://doi.org/10.1056/NEJM199409153311107",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "Bleeding peptic ulcer.",
+            "year": "1994",
+            "firstPublicationDate": "1994-09-01",
+            "doi": "10.1056/nejm199409153311107",
+            "pmid": "8058080",
+            "journal": "The New England journal of medicine",
+            "authors": "Laine L, Peterson WL."
+          },
+          "primaryPublicationUrl": "https://pubmed.ncbi.nlm.nih.gov/8058080/",
+          "abstractAvailable": false,
+          "fullTextSha256": null,
+          "abstractSha256": null,
+          "matchedBy": "exact-DOI-or-PMID"
+        },
+        {
+          "citation": "Gralnek IM et al. Endoscopic diagnosis and management of nonvariceal upper gastrointestinal hemorrhage (NVUGIH): European Society of Gastrointestinal Endoscopy (ESGE) Guideline – Update 2021. Endoscopy, 2021.",
+          "url": "https://doi.org/10.1055/a-1369-5274",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "Endoscopic diagnosis and management of nonvariceal upper gastrointestinal hemorrhage (NVUGIH): European Society of Gastrointestinal Endoscopy (ESGE) Guideline - Update 2021.",
+            "year": "2021",
+            "firstPublicationDate": "2021-02-10",
+            "doi": "10.1055/a-1369-5274",
+            "pmid": "33567467",
+            "journal": "Endoscopy",
+            "authors": "Gralnek IM, Stanley AJ, Morris AJ, Camus M, Lau J, Lanas A, Laursen SB, Radaelli F, Papanikolaou IS, Cúrdia Gonçalves T, Dinis-Ribeiro M, Awadie H, Braun G, de Groot N, Udd M, Sanchez-Yague A, Neeman Z, van Hooft JE."
+          },
+          "primaryPublicationUrl": "https://pubmed.ncbi.nlm.nih.gov/33567467/",
+          "abstractAvailable": true,
+          "fullTextSha256": null,
+          "abstractSha256": "6ee9e2e6c03c255b5cb3ebb576d6d11cc0da24860eac94d77b5d616ed2c784ad",
+          "matchedBy": "exact-DOI-or-PMID"
+        }
+      ],
+      "publicationEditionConfirmed": true,
+      "fullFormulaConformanceReviewed": false,
+      "formulaConformance": "Not established by bibliographic identity or automatic full-text retrieval; retain independent arithmetic and clinical review as separate evidence.",
+      "independentArithmetic": {
+        "status": "passed",
+        "testedAt": "2026-10-04T15:17:41.432Z",
+        "total": 6,
+        "passed": 6,
+        "embeddedCasesAreSubset": true,
+        "embeddedCaseCount": 4,
+        "caseStorage": {
+          "mode": "complete-downloadable-bank-with-inline-subset",
+          "file": "independent-source-cases.json",
+          "sha256": "ac533921aaee4a86617be684795ade4372fabcd7b7d567e913c29dfdc1576b1e",
+          "total": 6,
+          "sourceContextCount": 6,
+          "expectedEvidence": {
+            "file": "reports/review-20261003/six-classification-peer-expectations-final25.json",
+            "sha256": "f224a891b06428ed29426f073e0cc8d1ad5ad2d56b78646c85243237166bf001"
+          },
+          "obtainedEvidence": {
+            "file": "reports/review-20261003/six-classification-source-oracles-independent-review-final25.json",
+            "sha256": "683814d261c3e6a11e71d38a4a1002c438f4911c020641f8f057e2253fad3afe"
+          },
+          "packagingRequirement": "Copy this complete bank into the fresh tool package; frozen final24 packages do not contain this source evidence."
+        },
+        "scope": "Only six previously selected class codes and source code meanings. No endoscopic image classification, risk percentages, prognosis or treatment recommendation validation.",
+        "source": {
+          "tool": "classificacao-de-forrest",
+          "url": "https://www.esge.com/assets/downloads/pdfs/guidelines/2021_a_1369_5274.pdf",
+          "edition": "ESGE2021, DOI10.1055/a-1369-5274, PDFp16",
+          "access": "Official PDF definitions and recommendations8–10 directly read",
+          "readScope": "Six prior-selected class codes only. No image classifier, therapy recommendation, numerical risk or complete original1974 article conformance established."
+        },
+        "evidencePath": "reports/review-20261003/six-classification-source-oracles-final25-r2.json",
+        "evidenceSha256": "06dd6f382c1dd3555db037b3b35ee7d0e4709207ad0a28df0de64fefc11038e2",
+        "peerEvidencePath": "reports/review-20261003/six-classification-source-oracles-independent-review-final25.json",
+        "peerEvidenceSha256": "683814d261c3e6a11e71d38a4a1002c438f4911c020641f8f057e2253fad3afe",
+        "implementations": [
+          {
+            "file": "apps/website/private/tool-code/classificacao-de-forrest/calculator.js",
+            "sha256": "deddbce0102d500635e0d8f5814ad203c8d5c7e83416d14d10598ce911ab2974",
+            "importedAt": "2026-10-04T15:17:36.464Z",
+            "sourceContexts": 6,
+            "distinctApiInputs": 6,
+            "instrumentation": "One readonly internal observer exposed only in VM; original function/config bytes not changed."
+          },
+          {
+            "file": "apps/dashboard/private/tool-code/classificacao-de-forrest/calculator.js",
+            "sha256": "deddbce0102d500635e0d8f5814ad203c8d5c7e83416d14d10598ce911ab2974",
+            "importedAt": "2026-10-04T15:17:36.986Z",
+            "sourceContexts": 6,
+            "distinctApiInputs": 6,
+            "instrumentation": "One readonly internal observer exposed only in VM; original function/config bytes not changed."
+          },
+          {
+            "file": "apps/command-center/private/tool-code/classificacao-de-forrest/calculator.js",
+            "sha256": "deddbce0102d500635e0d8f5814ad203c8d5c7e83416d14d10598ce911ab2974",
+            "importedAt": "2026-10-04T15:17:37.685Z",
+            "sourceContexts": 6,
+            "distinctApiInputs": 6,
+            "instrumentation": "One readonly internal observer exposed only in VM; original function/config bytes not changed."
+          }
+        ],
+        "sourceContextCount": 6,
+        "uniqueApiInputCount": 6,
+        "actualAdapterExecutions": 18,
+        "isolatedChromiumExecutions": 6,
+        "qualifications": [
+          "Only six previously selected class codes and source code meanings. No endoscopic image classification, risk percentages, prognosis or treatment recommendation validation.",
+          "CIWA4229 patterns are pairwise/boundary/supplemental coverage, not all671088640 possible inputs.",
+          "Fisher10 source-feature contexts map to five unique API grade-code inputs. The feature-to-grade assignment was independently reconstructed from Table1 by the test; it is not implemented as an automated CT classifier.",
+          "WFNS GCS15 plus deficit has no original table assignment and is recorded only as a local-fallback observation.",
+          "Forrest/GOS/Fisher inputs represent classifications selected before use; numeric/code echo is not diagnosis, prognosis, risk calibration or therapeutic approval.",
+          "Original source cases, historical expected values and tolerances remain unchanged.",
+          "Original historical cases, expected values and tolerances remain unchanged. Separate Fisher source-description amendment changes only the explicitly recorded description/formula/version metadata; all clinical/professional/rights/release approval flags remain unchanged. Passed status describes only the named integer/code scope."
+        ],
+        "unresolvedSourceFindings": [],
+        "excludedObservations": [],
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed",
+        "sourceRightsApproval": "not-performed",
+        "fullMethodConformance": "not-performed",
+        "publicCandidateBankOmitted": true
+      },
+      "clinicalApproval": "not-performed",
+      "translationApproval": "not-performed",
+      "releaseApproval": "not-performed",
+      "implementationHash": "deddbce0102d500635e0d8f5814ad203c8d5c7e83416d14d10598ce911ab2974"
+    },
+    "limits": "Forrest classifica o aspecto endoscópico da úlcera péptica com sangramento, não toda hemorragia digestiva. Selecione a classe a partir do exame; a ferramenta não analisa imagens nem identifica a causa do sangramento. A diretriz ESGE 2021 reconhece limitações de concordância entre observadores. A classe e eventuais percentuais históricos não fornecem, sozinhos, uma previsão individual de ressangramento nem determinam alta ou tratamento.",
+    "limitsEvidence": {
+      "status": "specific-primary-guideline-section-visually-read",
+      "sources": [
+        {
+          "url": "https://www.esge.com/assets/downloads/pdfs/guidelines/2021_a_1369_5274.pdf",
+          "edition": "ESGE2021",
+          "readScope": "Direct primary PDF: Endoscopic diagnosis section, PDF page16 (zero15), six Forrest classes and interobserver/rebleeding limitations; relevant page visually read. Not entire guideline.",
+          "capture": "primary-verify-limits-final23/forrest-esge2021-p16.png",
+          "pdfSha256": "f69c305efaf922298bd6402996cfcb620d142420112d148bc7b30b8de86c1222"
+        },
+        {
+          "url": "https://doi.org/10.1016/S0140-6736(74)91770-X",
+          "edition": "Forrest1974",
+          "readScope": "Bibliographic identity only; original full paper not read."
+        }
+      ],
+      "populationScope": "Endoscopically observed peptic-ulcer bleeding; not all causes of gastrointestinal hemorrhage.",
+      "remainingChecks": [
+        "Original1974 full paper not read.",
+        "No new independent clinical adjudication of endoscopic images or historical event probabilities."
+      ],
+      "clinicalValidation": "not-performed",
+      "professionalLanguageReview": "not-performed",
+      "rightsApproval": "not-performed",
+      "fullMethodConformance": "not-performed"
     }
   },
-  "review": {
-    "status": "needs-review",
-    "reason": "Revisão documental e clínica independente pendente.",
-    "clinicalValidation": "not-performed"
+  "currentSource": {
+    "file": "apps/website/private/tool-code/classificacao-de-forrest/calculator.js",
+    "bytes": 5286,
+    "sha256": "deddbce0102d500635e0d8f5814ad203c8d5c7e83416d14d10598ce911ab2974"
   },
-  "clinicalValidation": "not-performed"
+  "sourceToolSha256": "4f5b1ad8a84b3314b812e1e680583c8dfb1962318faa251203d7982e512bc418",
+  "omittedFullReferenceBanks": [
+    {
+      "rows": 4,
+      "sha256": "1a243975ac5fc0eb34bbf365c025d1a88a13d076f2d183e2f394d3a9caff965f",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    },
+    {
+      "rows": 4,
+      "sha256": "1a243975ac5fc0eb34bbf365c025d1a88a13d076f2d183e2f394d3a9caff965f",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    }
+  ],
+  "clinicalApproval": "not-performed",
+  "professionalLanguageApproval": "not-performed",
+  "sourceRightsApproval": "not-performed"
 }
