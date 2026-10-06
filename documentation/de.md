@@ -68,3 +68,43 @@ Ergebnis der Formel oder Klassifikation. Interpretation, Vorgehen und Anwendbark
 Apache-2.0 gilt nur für den ELUCENIA-Code. Die Rechte an Instrumenten, Veröffentlichungen, Übersetzungen und Daten verbleiben bei den jeweiligen Rechteinhabern. Bewahren Sie LICENSE und NOTICE auf.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Dokumentierte Ergebnisse
+
+Die folgenden Angaben bewahren die Ausgaben der Methode für synthetische Beispiele. Sie stellen keine unabhängige klinische Validierung dar.
+
+### 1
+
+Forrest Ia (spritzende Blutung): endoskopische Hämostase indiziert
+
+| Ergebnisdetails | |
+| --- | --- |
+| Reblutung ohne endoskopische Therapie | 55 % (aktive Blutung) |
+
+
+### 2
+
+Forrest IIa (sichtbares Gefäß): endoskopische Hämostase indiziert
+
+| Ergebnisdetails | |
+| --- | --- |
+| Reblutung ohne endoskopische Therapie | 43% |
+
+
+### 3
+
+Forrest IIb (anhaftendes Gerinnsel): erwägen, das Gerinnsel zu entfernen und die zugrunde liegende Läsion zu behandeln
+
+| Ergebnisdetails | |
+| --- | --- |
+| Reblutung ohne endoskopische Therapie | 22% |
+
+
+### 4
+
+Forrest III (saubere Basis): endoskopische Therapie nicht indiziert
+
+| Ergebnisdetails | |
+| --- | --- |
+| Reblutung ohne endoskopische Therapie | 5% |
+

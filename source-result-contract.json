@@ -1,0 +1,236 @@
+{
+  "schema": "elucenia-public-source-result-preservation-v1",
+  "id": "classificacao-de-forrest",
+  "source": {
+    "baselineFile": "reports/review-20261005-completion/public-native-output-baseline-r2/baseline.json",
+    "baselineSha256": "e5f274fa5acc74566e1c3d55afb6bb402ad9928337dd77a2945442f5b6c49439",
+    "previousCommit": "0804ae62b0fd642549bafc67dade36efdd46cbdf",
+    "oldEngineSha256": "deddbce0102d500635e0d8f5814ad203c8d5c7e83416d14d10598ce911ab2974",
+    "currentEngineSha256": "ca0499212f17dfe1d252d51efd3237ca8a36464a38b0e4708dfbbcdfd12cc661"
+  },
+  "scope": "Existing synthetic inputs and same pinned mathematical-function outputs. Clinical interpretation correctness and professional translation are separate unperformed reviews.",
+  "clinicalApproval": "not-performed",
+  "professionalLanguageReview": "not-performed",
+  "cases": [
+    {
+      "caseIndex": 0,
+      "name": "Sangramento em jato: Forrest Ia, hemostasia indicada",
+      "input": {
+        "classe": "Ia"
+      },
+      "publicOutput": {
+        "id": "classificacao-de-forrest",
+        "main": [
+          "Ia",
+          ""
+        ],
+        "label": "Classificação de Forrest",
+        "raw": {
+          "classe": "Ia"
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "main": "Ia",
+        "level": "high",
+        "verdict": "hemostasia endoscópica indicada"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "Ia",
+          ""
+        ],
+        "label": "Classificação de Forrest",
+        "level": "high",
+        "verdict": "Forrest Ia (sangramento em jato): hemostasia endoscópica indicada",
+        "rows": [
+          [
+            "Ressangramento sem terapia endoscópica",
+            "55% (sangramento ativo)"
+          ]
+        ],
+        "raw": {
+          "classe": "Ia"
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    },
+    {
+      "caseIndex": 1,
+      "name": "Vaso visível: Forrest IIa, ressangramento 43%",
+      "input": {
+        "classe": "IIa"
+      },
+      "publicOutput": {
+        "id": "classificacao-de-forrest",
+        "main": [
+          "IIa",
+          ""
+        ],
+        "label": "Classificação de Forrest",
+        "raw": {
+          "classe": "IIa"
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "main": "IIa",
+        "level": "high",
+        "verdict": "vaso visível"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "IIa",
+          ""
+        ],
+        "label": "Classificação de Forrest",
+        "level": "high",
+        "verdict": "Forrest IIa (vaso visível): hemostasia endoscópica indicada",
+        "rows": [
+          [
+            "Ressangramento sem terapia endoscópica",
+            "43%"
+          ]
+        ],
+        "raw": {
+          "classe": "IIa"
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    },
+    {
+      "caseIndex": 2,
+      "name": "Coágulo aderido: Forrest IIb",
+      "input": {
+        "classe": "IIb"
+      },
+      "publicOutput": {
+        "id": "classificacao-de-forrest",
+        "main": [
+          "IIb",
+          ""
+        ],
+        "label": "Classificação de Forrest",
+        "raw": {
+          "classe": "IIb"
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "main": "IIb",
+        "level": "mid",
+        "verdict": "coágulo"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "IIb",
+          ""
+        ],
+        "label": "Classificação de Forrest",
+        "level": "mid",
+        "verdict": "Forrest IIb (coágulo aderido): considerar remover o coágulo e tratar a lesão subjacente",
+        "rows": [
+          [
+            "Ressangramento sem terapia endoscópica",
+            "22%"
+          ]
+        ],
+        "raw": {
+          "classe": "IIb"
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    },
+    {
+      "caseIndex": 3,
+      "name": "Base limpa: Forrest III, sem terapia endoscópica",
+      "input": {
+        "classe": "III"
+      },
+      "publicOutput": {
+        "id": "classificacao-de-forrest",
+        "main": [
+          "III",
+          ""
+        ],
+        "label": "Classificação de Forrest",
+        "raw": {
+          "classe": "III"
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "main": "III",
+        "level": "low",
+        "verdict": "não indicada"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "III",
+          ""
+        ],
+        "label": "Classificação de Forrest",
+        "level": "low",
+        "verdict": "Forrest III (base limpa): terapia endoscópica não indicada",
+        "rows": [
+          [
+            "Ressangramento sem terapia endoscópica",
+            "5%"
+          ]
+        ],
+        "raw": {
+          "classe": "III"
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    }
+  ]
+}

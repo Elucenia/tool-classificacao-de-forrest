@@ -1,0 +1,1148 @@
+{
+  "id": "classificacao-de-forrest",
+  "implementationVersion": "classificacao-de-forrest@native-2026-10-05+ca0499212f17",
+  "scope": "Rendered current output against the same source method; not an independent numerical/clinical oracle",
+  "locales": {
+    "pt-BR": [
+      {
+        "name": "Sangramento em jato: Forrest Ia, hemostasia indicada",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Ressangramento sem terapia endoscópica",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "55% (sangramento ativo)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Forrest Ia (sangramento em jato): hemostasia endoscópica indicada",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Vaso visível: Forrest IIa, ressangramento 43%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Ressangramento sem terapia endoscópica",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "43%",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Forrest IIa (vaso visível): hemostasia endoscópica indicada",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Coágulo aderido: Forrest IIb",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Ressangramento sem terapia endoscópica",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "22%",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Forrest IIb (coágulo aderido): considerar remover o coágulo e tratar a lesão subjacente",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Base limpa: Forrest III, sem terapia endoscópica",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Ressangramento sem terapia endoscópica",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "5%",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Forrest III (base limpa): terapia endoscópica não indicada",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      }
+    ],
+    "en": [
+      {
+        "name": "Sangramento em jato: Forrest Ia, hemostasia indicada",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Rebleeding without endoscopic therapy",
+                "locale": "en",
+                "template": "documented-authored-cee8136ba97e0f43eec9"
+              },
+              "value": {
+                "text": "55% (active bleeding)",
+                "locale": "en",
+                "template": "documented-authored-80399fa8ff13f0d4c001"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Forrest Ia (spurting bleeding): endoscopic hemostasis indicated",
+            "locale": "en",
+            "template": "documented-authored-575ad0e73f604002c293"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Vaso visível: Forrest IIa, ressangramento 43%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Rebleeding without endoscopic therapy",
+                "locale": "en",
+                "template": "documented-authored-cee8136ba97e0f43eec9"
+              },
+              "value": {
+                "text": "43%",
+                "locale": "en",
+                "template": "documented-authored-49bd40465523ea784c95",
+                "sourceNumbers": [
+                  43
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Forrest IIa (visible vessel): endoscopic hemostasis indicated",
+            "locale": "en",
+            "template": "documented-authored-9faa8a9d00e280c179fc"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Coágulo aderido: Forrest IIb",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Rebleeding without endoscopic therapy",
+                "locale": "en",
+                "template": "documented-authored-cee8136ba97e0f43eec9"
+              },
+              "value": {
+                "text": "22%",
+                "locale": "en",
+                "template": "documented-authored-49bd40465523ea784c95",
+                "sourceNumbers": [
+                  22
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Forrest IIb (adherent clot): consider removing the clot and treating the underlying lesion",
+            "locale": "en",
+            "template": "documented-authored-548a8e47c4256200954b"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Base limpa: Forrest III, sem terapia endoscópica",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Rebleeding without endoscopic therapy",
+                "locale": "en",
+                "template": "documented-authored-cee8136ba97e0f43eec9"
+              },
+              "value": {
+                "text": "5%",
+                "locale": "en",
+                "template": "documented-authored-49bd40465523ea784c95",
+                "sourceNumbers": [
+                  5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Forrest III (clean base): endoscopic therapy not indicated",
+            "locale": "en",
+            "template": "documented-authored-5991fa5cfd524bae3c40"
+          },
+          "level": "low"
+        }
+      }
+    ],
+    "es": [
+      {
+        "name": "Sangramento em jato: Forrest Ia, hemostasia indicada",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Resangrado sin terapia endoscópica",
+                "locale": "es",
+                "template": "documented-authored-cee8136ba97e0f43eec9"
+              },
+              "value": {
+                "text": "55% (sangrado activo)",
+                "locale": "es",
+                "template": "documented-authored-80399fa8ff13f0d4c001"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Forrest Ia (sangrado en chorro): hemostasia endoscópica indicada",
+            "locale": "es",
+            "template": "documented-authored-575ad0e73f604002c293"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Vaso visível: Forrest IIa, ressangramento 43%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Resangrado sin terapia endoscópica",
+                "locale": "es",
+                "template": "documented-authored-cee8136ba97e0f43eec9"
+              },
+              "value": {
+                "text": "43%",
+                "locale": "es",
+                "template": "documented-authored-49bd40465523ea784c95",
+                "sourceNumbers": [
+                  43
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Forrest IIa (vaso visible): hemostasia endoscópica indicada",
+            "locale": "es",
+            "template": "documented-authored-9faa8a9d00e280c179fc"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Coágulo aderido: Forrest IIb",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Resangrado sin terapia endoscópica",
+                "locale": "es",
+                "template": "documented-authored-cee8136ba97e0f43eec9"
+              },
+              "value": {
+                "text": "22%",
+                "locale": "es",
+                "template": "documented-authored-49bd40465523ea784c95",
+                "sourceNumbers": [
+                  22
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Forrest IIb (coágulo adherido): considerar retirar el coágulo y tratar la lesión subyacente",
+            "locale": "es",
+            "template": "documented-authored-548a8e47c4256200954b"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Base limpa: Forrest III, sem terapia endoscópica",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Resangrado sin terapia endoscópica",
+                "locale": "es",
+                "template": "documented-authored-cee8136ba97e0f43eec9"
+              },
+              "value": {
+                "text": "5%",
+                "locale": "es",
+                "template": "documented-authored-49bd40465523ea784c95",
+                "sourceNumbers": [
+                  5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Forrest III (base limpia): terapia endoscópica no indicada",
+            "locale": "es",
+            "template": "documented-authored-5991fa5cfd524bae3c40"
+          },
+          "level": "low"
+        }
+      }
+    ],
+    "fr": [
+      {
+        "name": "Sangramento em jato: Forrest Ia, hemostasia indicada",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Resaignement sans traitement endoscopique",
+                "locale": "fr",
+                "template": "documented-authored-cee8136ba97e0f43eec9"
+              },
+              "value": {
+                "text": "55 % (saignement actif)",
+                "locale": "fr",
+                "template": "documented-authored-80399fa8ff13f0d4c001"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Forrest Ia (saignement en jet) : hémostase endoscopique indiquée",
+            "locale": "fr",
+            "template": "documented-authored-575ad0e73f604002c293"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Vaso visível: Forrest IIa, ressangramento 43%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Resaignement sans traitement endoscopique",
+                "locale": "fr",
+                "template": "documented-authored-cee8136ba97e0f43eec9"
+              },
+              "value": {
+                "text": "43%",
+                "locale": "fr",
+                "template": "documented-authored-49bd40465523ea784c95",
+                "sourceNumbers": [
+                  43
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Forrest IIa (vaisseau visible) : hémostase endoscopique indiquée",
+            "locale": "fr",
+            "template": "documented-authored-9faa8a9d00e280c179fc"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Coágulo aderido: Forrest IIb",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Resaignement sans traitement endoscopique",
+                "locale": "fr",
+                "template": "documented-authored-cee8136ba97e0f43eec9"
+              },
+              "value": {
+                "text": "22%",
+                "locale": "fr",
+                "template": "documented-authored-49bd40465523ea784c95",
+                "sourceNumbers": [
+                  22
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Forrest IIb (caillot adhérent) : envisager de retirer le caillot et de traiter la lésion sous-jacente",
+            "locale": "fr",
+            "template": "documented-authored-548a8e47c4256200954b"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Base limpa: Forrest III, sem terapia endoscópica",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Resaignement sans traitement endoscopique",
+                "locale": "fr",
+                "template": "documented-authored-cee8136ba97e0f43eec9"
+              },
+              "value": {
+                "text": "5%",
+                "locale": "fr",
+                "template": "documented-authored-49bd40465523ea784c95",
+                "sourceNumbers": [
+                  5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Forrest III (base propre) : traitement endoscopique non indiqué",
+            "locale": "fr",
+            "template": "documented-authored-5991fa5cfd524bae3c40"
+          },
+          "level": "low"
+        }
+      }
+    ],
+    "de": [
+      {
+        "name": "Sangramento em jato: Forrest Ia, hemostasia indicada",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Reblutung ohne endoskopische Therapie",
+                "locale": "de",
+                "template": "documented-authored-cee8136ba97e0f43eec9"
+              },
+              "value": {
+                "text": "55 % (aktive Blutung)",
+                "locale": "de",
+                "template": "documented-authored-80399fa8ff13f0d4c001"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Forrest Ia (spritzende Blutung): endoskopische Hämostase indiziert",
+            "locale": "de",
+            "template": "documented-authored-575ad0e73f604002c293"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Vaso visível: Forrest IIa, ressangramento 43%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Reblutung ohne endoskopische Therapie",
+                "locale": "de",
+                "template": "documented-authored-cee8136ba97e0f43eec9"
+              },
+              "value": {
+                "text": "43%",
+                "locale": "de",
+                "template": "documented-authored-49bd40465523ea784c95",
+                "sourceNumbers": [
+                  43
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Forrest IIa (sichtbares Gefäß): endoskopische Hämostase indiziert",
+            "locale": "de",
+            "template": "documented-authored-9faa8a9d00e280c179fc"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Coágulo aderido: Forrest IIb",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Reblutung ohne endoskopische Therapie",
+                "locale": "de",
+                "template": "documented-authored-cee8136ba97e0f43eec9"
+              },
+              "value": {
+                "text": "22%",
+                "locale": "de",
+                "template": "documented-authored-49bd40465523ea784c95",
+                "sourceNumbers": [
+                  22
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Forrest IIb (anhaftendes Gerinnsel): erwägen, das Gerinnsel zu entfernen und die zugrunde liegende Läsion zu behandeln",
+            "locale": "de",
+            "template": "documented-authored-548a8e47c4256200954b"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Base limpa: Forrest III, sem terapia endoscópica",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Reblutung ohne endoskopische Therapie",
+                "locale": "de",
+                "template": "documented-authored-cee8136ba97e0f43eec9"
+              },
+              "value": {
+                "text": "5%",
+                "locale": "de",
+                "template": "documented-authored-49bd40465523ea784c95",
+                "sourceNumbers": [
+                  5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Forrest III (saubere Basis): endoskopische Therapie nicht indiziert",
+            "locale": "de",
+            "template": "documented-authored-5991fa5cfd524bae3c40"
+          },
+          "level": "low"
+        }
+      }
+    ],
+    "it": [
+      {
+        "name": "Sangramento em jato: Forrest Ia, hemostasia indicada",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Re-sanguinamento senza terapia endoscopica",
+                "locale": "it",
+                "template": "documented-authored-cee8136ba97e0f43eec9"
+              },
+              "value": {
+                "text": "55% (sanguinamento attivo)",
+                "locale": "it",
+                "template": "documented-authored-80399fa8ff13f0d4c001"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Forrest Ia (sanguinamento a getto): emostasi endoscopica indicata",
+            "locale": "it",
+            "template": "documented-authored-575ad0e73f604002c293"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Vaso visível: Forrest IIa, ressangramento 43%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Re-sanguinamento senza terapia endoscopica",
+                "locale": "it",
+                "template": "documented-authored-cee8136ba97e0f43eec9"
+              },
+              "value": {
+                "text": "43%",
+                "locale": "it",
+                "template": "documented-authored-49bd40465523ea784c95",
+                "sourceNumbers": [
+                  43
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Forrest IIa (vaso visibile): emostasi endoscopica indicata",
+            "locale": "it",
+            "template": "documented-authored-9faa8a9d00e280c179fc"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Coágulo aderido: Forrest IIb",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Re-sanguinamento senza terapia endoscopica",
+                "locale": "it",
+                "template": "documented-authored-cee8136ba97e0f43eec9"
+              },
+              "value": {
+                "text": "22%",
+                "locale": "it",
+                "template": "documented-authored-49bd40465523ea784c95",
+                "sourceNumbers": [
+                  22
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Forrest IIb (coagulo adeso): considerare la rimozione del coagulo e il trattamento della lesione sottostante",
+            "locale": "it",
+            "template": "documented-authored-548a8e47c4256200954b"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Base limpa: Forrest III, sem terapia endoscópica",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Re-sanguinamento senza terapia endoscopica",
+                "locale": "it",
+                "template": "documented-authored-cee8136ba97e0f43eec9"
+              },
+              "value": {
+                "text": "5%",
+                "locale": "it",
+                "template": "documented-authored-49bd40465523ea784c95",
+                "sourceNumbers": [
+                  5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Forrest III (base pulita): terapia endoscopica non indicata",
+            "locale": "it",
+            "template": "documented-authored-5991fa5cfd524bae3c40"
+          },
+          "level": "low"
+        }
+      }
+    ],
+    "ar": [
+      {
+        "name": "Sangramento em jato: Forrest Ia, hemostasia indicada",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "إعادة نزف من دون علاج بالمنظار",
+                "locale": "ar",
+                "template": "documented-authored-cee8136ba97e0f43eec9"
+              },
+              "value": {
+                "text": "55% (نزف نشط)",
+                "locale": "ar",
+                "template": "documented-authored-80399fa8ff13f0d4c001"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Forrest Ia (نزف نافور): الإرقاء بالمنظار مُشار إليه",
+            "locale": "ar",
+            "template": "documented-authored-575ad0e73f604002c293"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Vaso visível: Forrest IIa, ressangramento 43%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "إعادة نزف من دون علاج بالمنظار",
+                "locale": "ar",
+                "template": "documented-authored-cee8136ba97e0f43eec9"
+              },
+              "value": {
+                "text": "٤٣%",
+                "locale": "ar",
+                "template": "documented-authored-49bd40465523ea784c95",
+                "sourceNumbers": [
+                  43
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Forrest IIa (وعاء مرئي): يشار إلى الإرقاء بالمنظار",
+            "locale": "ar",
+            "template": "documented-authored-9faa8a9d00e280c179fc"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Coágulo aderido: Forrest IIb",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "إعادة نزف من دون علاج بالمنظار",
+                "locale": "ar",
+                "template": "documented-authored-cee8136ba97e0f43eec9"
+              },
+              "value": {
+                "text": "٢٢%",
+                "locale": "ar",
+                "template": "documented-authored-49bd40465523ea784c95",
+                "sourceNumbers": [
+                  22
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Forrest IIb (خثرة ملتصقة): يُنظر في إزالة الخثرة وعلاج الآفة الكامنة",
+            "locale": "ar",
+            "template": "documented-authored-548a8e47c4256200954b"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Base limpa: Forrest III, sem terapia endoscópica",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "إعادة نزف من دون علاج بالمنظار",
+                "locale": "ar",
+                "template": "documented-authored-cee8136ba97e0f43eec9"
+              },
+              "value": {
+                "text": "٥%",
+                "locale": "ar",
+                "template": "documented-authored-49bd40465523ea784c95",
+                "sourceNumbers": [
+                  5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Forrest III (قاعدة نظيفة): العلاج بالمنظار غير مُشار إليه",
+            "locale": "ar",
+            "template": "documented-authored-5991fa5cfd524bae3c40"
+          },
+          "level": "low"
+        }
+      }
+    ],
+    "zh": [
+      {
+        "name": "Sangramento em jato: Forrest Ia, hemostasia indicada",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "未行内镜治疗的再出血",
+                "locale": "zh",
+                "template": "documented-authored-cee8136ba97e0f43eec9"
+              },
+              "value": {
+                "text": "55%（活动性出血）",
+                "locale": "zh",
+                "template": "documented-authored-80399fa8ff13f0d4c001"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Forrest Ia（喷射性出血）：有内镜止血指征",
+            "locale": "zh",
+            "template": "documented-authored-575ad0e73f604002c293"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Vaso visível: Forrest IIa, ressangramento 43%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "未行内镜治疗的再出血",
+                "locale": "zh",
+                "template": "documented-authored-cee8136ba97e0f43eec9"
+              },
+              "value": {
+                "text": "43%",
+                "locale": "zh",
+                "template": "documented-authored-49bd40465523ea784c95",
+                "sourceNumbers": [
+                  43
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Forrest IIa（可见血管）：适用内镜止血",
+            "locale": "zh",
+            "template": "documented-authored-9faa8a9d00e280c179fc"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Coágulo aderido: Forrest IIb",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "未行内镜治疗的再出血",
+                "locale": "zh",
+                "template": "documented-authored-cee8136ba97e0f43eec9"
+              },
+              "value": {
+                "text": "22%",
+                "locale": "zh",
+                "template": "documented-authored-49bd40465523ea784c95",
+                "sourceNumbers": [
+                  22
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Forrest IIb（附着血凝块）：考虑去除血凝块并处理潜在病灶",
+            "locale": "zh",
+            "template": "documented-authored-548a8e47c4256200954b"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Base limpa: Forrest III, sem terapia endoscópica",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "未行内镜治疗的再出血",
+                "locale": "zh",
+                "template": "documented-authored-cee8136ba97e0f43eec9"
+              },
+              "value": {
+                "text": "5%",
+                "locale": "zh",
+                "template": "documented-authored-49bd40465523ea784c95",
+                "sourceNumbers": [
+                  5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Forrest III（清洁基底）：不适用内镜治疗",
+            "locale": "zh",
+            "template": "documented-authored-5991fa5cfd524bae3c40"
+          },
+          "level": "low"
+        }
+      }
+    ],
+    "ja": [
+      {
+        "name": "Sangramento em jato: Forrest Ia, hemostasia indicada",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "内視鏡治療なしの再出血",
+                "locale": "ja",
+                "template": "documented-authored-cee8136ba97e0f43eec9"
+              },
+              "value": {
+                "text": "55%（活動性出血）",
+                "locale": "ja",
+                "template": "documented-authored-80399fa8ff13f0d4c001"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Forrest Ia（噴出性出血）：内視鏡的止血が適応",
+            "locale": "ja",
+            "template": "documented-authored-575ad0e73f604002c293"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Vaso visível: Forrest IIa, ressangramento 43%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "内視鏡治療なしの再出血",
+                "locale": "ja",
+                "template": "documented-authored-cee8136ba97e0f43eec9"
+              },
+              "value": {
+                "text": "43%",
+                "locale": "ja",
+                "template": "documented-authored-49bd40465523ea784c95",
+                "sourceNumbers": [
+                  43
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Forrest IIa（露出血管）：内視鏡的止血が適応",
+            "locale": "ja",
+            "template": "documented-authored-9faa8a9d00e280c179fc"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Coágulo aderido: Forrest IIb",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "内視鏡治療なしの再出血",
+                "locale": "ja",
+                "template": "documented-authored-cee8136ba97e0f43eec9"
+              },
+              "value": {
+                "text": "22%",
+                "locale": "ja",
+                "template": "documented-authored-49bd40465523ea784c95",
+                "sourceNumbers": [
+                  22
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Forrest IIb（付着血栓）：血栓の除去と基礎病変の治療を考慮する",
+            "locale": "ja",
+            "template": "documented-authored-548a8e47c4256200954b"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Base limpa: Forrest III, sem terapia endoscópica",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "内視鏡治療なしの再出血",
+                "locale": "ja",
+                "template": "documented-authored-cee8136ba97e0f43eec9"
+              },
+              "value": {
+                "text": "5%",
+                "locale": "ja",
+                "template": "documented-authored-49bd40465523ea784c95",
+                "sourceNumbers": [
+                  5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Forrest III（きれいな潰瘍底）：内視鏡治療は適応外",
+            "locale": "ja",
+            "template": "documented-authored-5991fa5cfd524bae3c40"
+          },
+          "level": "low"
+        }
+      }
+    ],
+    "hi": [
+      {
+        "name": "Sangramento em jato: Forrest Ia, hemostasia indicada",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "एंडोस्कोपिक थेरेपी के बिना पुनः रक्तस्राव",
+                "locale": "hi",
+                "template": "documented-authored-cee8136ba97e0f43eec9"
+              },
+              "value": {
+                "text": "55% (सक्रिय रक्तस्राव)",
+                "locale": "hi",
+                "template": "documented-authored-80399fa8ff13f0d4c001"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Forrest Ia (फुहारदार रक्तस्राव): एंडोस्कोपिक हेमोस्टेसिस संकेतित",
+            "locale": "hi",
+            "template": "documented-authored-575ad0e73f604002c293"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Vaso visível: Forrest IIa, ressangramento 43%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "एंडोस्कोपिक थेरेपी के बिना पुनः रक्तस्राव",
+                "locale": "hi",
+                "template": "documented-authored-cee8136ba97e0f43eec9"
+              },
+              "value": {
+                "text": "43%",
+                "locale": "hi",
+                "template": "documented-authored-49bd40465523ea784c95",
+                "sourceNumbers": [
+                  43
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Forrest IIa (दृश्यमान रक्तवाहिका): एंडोस्कोपिक हीमोस्टेसिस संकेतित है",
+            "locale": "hi",
+            "template": "documented-authored-9faa8a9d00e280c179fc"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Coágulo aderido: Forrest IIb",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "एंडोस्कोपिक थेरेपी के बिना पुनः रक्तस्राव",
+                "locale": "hi",
+                "template": "documented-authored-cee8136ba97e0f43eec9"
+              },
+              "value": {
+                "text": "22%",
+                "locale": "hi",
+                "template": "documented-authored-49bd40465523ea784c95",
+                "sourceNumbers": [
+                  22
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Forrest IIb (चिपका हुआ थक्का): थक्के को हटाने और अंतर्निहित घाव का उपचार करने पर विचार करें",
+            "locale": "hi",
+            "template": "documented-authored-548a8e47c4256200954b"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Base limpa: Forrest III, sem terapia endoscópica",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "एंडोस्कोपिक थेरेपी के बिना पुनः रक्तस्राव",
+                "locale": "hi",
+                "template": "documented-authored-cee8136ba97e0f43eec9"
+              },
+              "value": {
+                "text": "5%",
+                "locale": "hi",
+                "template": "documented-authored-49bd40465523ea784c95",
+                "sourceNumbers": [
+                  5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Forrest III (स्वच्छ आधार): एंडोस्कोपिक चिकित्सा संकेतित नहीं है",
+            "locale": "hi",
+            "template": "documented-authored-5991fa5cfd524bae3c40"
+          },
+          "level": "low"
+        }
+      }
+    ]
+  }
+}

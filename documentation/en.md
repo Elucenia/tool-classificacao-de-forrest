@@ -68,3 +68,43 @@ Formula or classification result. Interpretation, care and applicability depend 
 Apache-2.0 applies only to ELUCENIA code. Rights to instruments, publications, translations and data remain with their respective holders. Preserve LICENSE and NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Documented results
+
+The information below preserves the method outputs for synthetic examples. It does not constitute independent clinical validation.
+
+### 1
+
+Forrest Ia (spurting bleeding): endoscopic hemostasis indicated
+
+| Result details | |
+| --- | --- |
+| Rebleeding without endoscopic therapy | 55% (active bleeding) |
+
+
+### 2
+
+Forrest IIa (visible vessel): endoscopic hemostasis indicated
+
+| Result details | |
+| --- | --- |
+| Rebleeding without endoscopic therapy | 43% |
+
+
+### 3
+
+Forrest IIb (adherent clot): consider removing the clot and treating the underlying lesion
+
+| Result details | |
+| --- | --- |
+| Rebleeding without endoscopic therapy | 22% |
+
+
+### 4
+
+Forrest III (clean base): endoscopic therapy not indicated
+
+| Result details | |
+| --- | --- |
+| Rebleeding without endoscopic therapy | 5% |
+

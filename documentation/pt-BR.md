@@ -68,3 +68,43 @@ Resultado da fórmula ou classificação. Interpretação, conduta e aplicabilid
 Apache-2.0 aplica-se somente ao código da ELUCENIA. Os instrumentos, publicações, traduções e dados mantêm os direitos dos respectivos titulares. Preserve LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Resultados documentados
+
+As informações abaixo preservam as saídas do método para exemplos sintéticos. Não constituem validação clínica independente.
+
+### 1
+
+Forrest Ia (sangramento em jato): hemostasia endoscópica indicada
+
+| Detalhes do resultado | |
+| --- | --- |
+| Ressangramento sem terapia endoscópica | 55% (sangramento ativo) |
+
+
+### 2
+
+Forrest IIa (vaso visível): hemostasia endoscópica indicada
+
+| Detalhes do resultado | |
+| --- | --- |
+| Ressangramento sem terapia endoscópica | 43% |
+
+
+### 3
+
+Forrest IIb (coágulo aderido): considerar remover o coágulo e tratar a lesão subjacente
+
+| Detalhes do resultado | |
+| --- | --- |
+| Ressangramento sem terapia endoscópica | 22% |
+
+
+### 4
+
+Forrest III (base limpa): terapia endoscópica não indicada
+
+| Detalhes do resultado | |
+| --- | --- |
+| Ressangramento sem terapia endoscópica | 5% |
+

@@ -183,7 +183,7 @@
       "publicCandidateBankOmitted": true
     },
     "methodVersion": "Forrest 1974:Ia/Ib/IIa/IIb/IIc/III; contexto ESGE 2021",
-    "implementationVersion": "classificacao-de-forrest@native-2026-10-03+deddbce0102d",
+    "implementationVersion": "classificacao-de-forrest@native-2026-10-05+ca0499212f17",
     "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/4136718/",
     "versionEvidence": {
       "status": "variant-and-source-edition-recorded",
@@ -364,7 +364,35 @@
       "clinicalApproval": "not-performed",
       "translationApproval": "not-performed",
       "releaseApproval": "not-performed",
-      "implementationHash": "deddbce0102d500635e0d8f5814ad203c8d5c7e83416d14d10598ce911ab2974"
+      "implementationHash": "ca0499212f17dfe1d252d51efd3237ca8a36464a38b0e4708dfbbcdfd12cc661",
+      "documentedOutputContract": {
+        "fields": [
+          "level",
+          "verdict",
+          "rows",
+          "note"
+        ],
+        "scope": "Optional documented outputs already produced by the existing scientific method; no new classification or treatment decision.",
+        "sourceExposureReceipt": {
+          "file": "reports/review-20261005-completion/native-result-presentation-r1/applied-output-r1/receipt.json",
+          "sha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        },
+        "scientificBodiesUnchanged": true,
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed"
+      },
+      "technicalBindingHistory": [
+        {
+          "recordedAt": "2026-10-05T23:55:42.176Z",
+          "scope": "Expose existing documented result fields; scientific body and complete input contract unchanged.",
+          "previousImplementationVersion": "classificacao-de-forrest@native-2026-10-03+deddbce0102d",
+          "previousImplementationHash": "deddbce0102d500635e0d8f5814ad203c8d5c7e83416d14d10598ce911ab2974",
+          "implementationHash": "ca0499212f17dfe1d252d51efd3237ca8a36464a38b0e4708dfbbcdfd12cc661",
+          "scientificBodySha256": "a974286b24b02cf9097f03f946356d2b7c304f037e520c1d1bdd86bf5b01d115",
+          "metadataContractHash": "74f7aaaa672461179d09e7fd5823c1a6a23a14031aaaf575e727c26ef3a6fded",
+          "exposureReceiptSha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        }
+      ]
     },
     "limits": "Forrest classifica o aspecto endoscópico da úlcera péptica com sangramento, não toda hemorragia digestiva. Selecione a classe a partir do exame; a ferramenta não analisa imagens nem identifica a causa do sangramento. A diretriz ESGE 2021 reconhece limitações de concordância entre observadores. A classe e eventuais percentuais históricos não fornecem, sozinhos, uma previsão individual de ressangramento nem determinam alta ou tratamento.",
     "limitsEvidence": {
@@ -396,20 +424,20 @@
   },
   "currentSource": {
     "file": "apps/website/private/tool-code/classificacao-de-forrest/calculator.js",
-    "bytes": 5286,
-    "sha256": "deddbce0102d500635e0d8f5814ad203c8d5c7e83416d14d10598ce911ab2974"
+    "bytes": 5491,
+    "sha256": "ca0499212f17dfe1d252d51efd3237ca8a36464a38b0e4708dfbbcdfd12cc661"
   },
-  "sourceToolSha256": "4f5b1ad8a84b3314b812e1e680583c8dfb1962318faa251203d7982e512bc418",
+  "sourceToolSha256": "a9af98dab18de054f357de955a8e00895f044bf8e592e91e1dfba1963b96ff3b",
   "omittedFullReferenceBanks": [
     {
       "rows": 4,
       "sha256": "1a243975ac5fc0eb34bbf365c025d1a88a13d076f2d183e2f394d3a9caff965f",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     },
     {
       "rows": 4,
       "sha256": "1a243975ac5fc0eb34bbf365c025d1a88a13d076f2d183e2f394d3a9caff965f",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     }
   ],
   "clinicalApproval": "not-performed",

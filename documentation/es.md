@@ -68,3 +68,43 @@ Resultado de la fórmula o clasificación. La interpretación, la conducta y la 
 Apache-2.0 se aplica únicamente al código de ELUCENIA. Los derechos de los instrumentos, publicaciones, traducciones y datos permanecen en manos de sus respectivos titulares. Conserve LICENSE y NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Resultados documentados
+
+La información siguiente conserva las salidas del método para ejemplos sintéticos. No constituye una validación clínica independiente.
+
+### 1
+
+Forrest Ia (sangrado en chorro): hemostasia endoscópica indicada
+
+| Detalles del resultado | |
+| --- | --- |
+| Resangrado sin terapia endoscópica | 55% (sangrado activo) |
+
+
+### 2
+
+Forrest IIa (vaso visible): hemostasia endoscópica indicada
+
+| Detalles del resultado | |
+| --- | --- |
+| Resangrado sin terapia endoscópica | 43% |
+
+
+### 3
+
+Forrest IIb (coágulo adherido): considerar retirar el coágulo y tratar la lesión subyacente
+
+| Detalles del resultado | |
+| --- | --- |
+| Resangrado sin terapia endoscópica | 22% |
+
+
+### 4
+
+Forrest III (base limpia): terapia endoscópica no indicada
+
+| Detalles del resultado | |
+| --- | --- |
+| Resangrado sin terapia endoscópica | 5% |
+
